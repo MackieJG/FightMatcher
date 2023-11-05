@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-backgroundFloralWhite text-textSpaceCadetBlue container mx-auto p-4`}
+        className={`${inter.className} bg-mainBackground text-mainText container mx-auto p-4`}
       >
         <nav className="w-100vw h-auto">
           <header className="flex justify-between items-center mb-4 ">

@@ -14,11 +14,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        "backgroundFloralWhite": "#FFF8F0",
-        "textSpaceCadetBlue": "#111D4A",
-        "sunset": "#FFCF99",
-        "pennRed": "#92140C",
-        "raisinBlack": "#1E1E24"
+        "mainBackground": "#FFF8F0", // "Floral white"
+        "mainText": "#111D4A", // "Space cadet"
+        "secondayColour": "#92140C", // "Penn red"
+        "accentColour": "#FFCF99", // "Sunset"
+        "themeBlack": "#1E1E24" // "Raisin black"
       },
     },
   },
