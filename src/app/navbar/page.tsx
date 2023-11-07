@@ -21,7 +21,7 @@ export default function NavBar() {
                     <Link href="users/view-all-fighters" className="p-2 text-xl text-[#FFCF99]">Fighters</Link>
                     <Link href="events" className="p-2 text-xl text-[#FFCF99]">Events</Link>
                 </div>
-                <Link href="users/fighter/{id}" className="p-2 text-xl text-[#FFCF99]">Profile</Link>
+                <Link href="users/fighter/{id}" className="p-6 text-xl text-[#FFCF99]">Profile</Link>
             </div>
     
         </>
