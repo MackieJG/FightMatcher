@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import NavBar from "./navbar/page"
 export default function Home() {
   return (
     <>
+      <NavBar />
       <h1 className="text-4xl mb-4">Dashboard</h1>
       <div className="flex justify-between items-center mb-4">
         <Link href="users/create-a-fighter" className="text-2xl">
