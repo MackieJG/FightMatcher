@@ -7,12 +7,14 @@ export default function NavBar() {
         <>
             <div className="flex justify-between items-center bg-[#1E1E24] w-full">
                 <div className="flex items-center">
-                    <Image
-                        src="/CombatConnectLogo.png"
-                        width={80}
-                        height={80}
-                        alt="Website Logo"
-                    />
+                    <Link href="/">
+                        <Image
+                            src="/CombatConnectLogo.png"
+                            width={80}
+                            height={80}
+                            alt="Website Logo"
+                        />
+                    </Link>
                 </div>
                 <div className="flex items-center space-x-4">
                     <Link href="users/create-a-fighter" className="p-2 text-xl text-[#FFCF99]">Create A Fighter</Link>
