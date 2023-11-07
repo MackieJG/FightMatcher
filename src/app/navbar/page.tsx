@@ -5,8 +5,8 @@ export default function NavBar() {
     return (
     
         <>
-            <div className="d-flex justify-between items-center bg-[#1E1E24]">
-                <div className="flex">
+            <div className="flex justify-between items-center bg-[#1E1E24] w-full">
+                <div className="flex items-center">
                     <Image
                         src="/CombatConnectLogo.png"
                         width={80}
