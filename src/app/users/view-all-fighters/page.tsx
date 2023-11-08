@@ -74,14 +74,16 @@ export default function FightersListPage() {
       <div className="flex flex-col gap-2">
         {fighterList.map((fighter) => {
           return (
-            <div className="w-96 h-auto border-2 border-themeBlack rounded bg-mainBackground text-mainText p-4 flex flex-col">
-              <p>
+            <div
+              key={fighter.id}
+              className="w-96 h-auto border-2 border-themeBlack rounded bg-mainBackground text-mainText p-4 flex gap-4 items-center"
+            >
+              <section className="w-60">
                 {fighter.firstName} "{fighter.nickName}" {fighter.lastName}
-              </p>
-              <p>
+              </section>
+              <section className="text-lg">
                 {fighter.wins} - {fighter.losses}
-              </p>
-              <p>{fighter.weightClass}</p>
+              </section>
             </div>
           );
         })}
