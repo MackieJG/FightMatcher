@@ -17,20 +17,20 @@ export default function NavBar() {
         </div>
         <div className="flex items-center space-x-4">
           <Link
-            href="users/create-a-fighter"
+            href="/users/create-a-fighter"
             className="p-2 text-xl text-[#FFCF99]">
             Create A Fighter
           </Link>
           <Link
-            href="users/view-all-fighters"
+            href="/users/view-all-fighters"
             className="p-2 text-xl text-[#FFCF99]">
             Fighters
           </Link>
-          <Link href="events" className="p-2 text-xl text-[#FFCF99]">
+          <Link href="/events" className="p-2 text-xl text-[#FFCF99]">
             Events
           </Link>
         </div>
-        <Link href="users/fighter/{id}" className="p-6 text-xl text-[#FFCF99]">
+        <Link href="/users/fighter/{id}" className="p-6 text-xl text-[#FFCF99]">
           Profile
         </Link>
       </div>
