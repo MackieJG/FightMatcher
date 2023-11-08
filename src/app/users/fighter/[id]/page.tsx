@@ -42,7 +42,7 @@ export default function FighterProfilePage() {
         Fighter Profile
       </h1>
       <div className="flex flex-col gap-4">
-        <h2 className="text-2xl">
+        <h2 className="text-4xl">
           {fighter.firstName} "{fighter.nickName}" {fighter.lastName}
         </h2>
         <div>
