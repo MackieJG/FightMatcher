@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Fighter } from "../fighter/[id]/page";
 
 export default function FightersListPage() {
@@ -70,7 +69,7 @@ export default function FightersListPage() {
 
   return (
     <>
-      <h1 className="text-4xl mb-4">Fighters List</h1>
+      <h1 className="text-4xl my-8">Fighters List</h1>
       <div className="flex flex-col gap-2">
         {fighterList.map((fighter) => {
           return (
