@@ -1,22 +1,24 @@
 import Link from "next/link";
 
-export default function FighterProfilePage() {
-  type Fighter = {
-    firstName: string;
-    lastName: string;
-    nickName: string;
-    gender: string;
-    fightingWeight: number;
-    weightClass: string;
-    gym: string;
-    city: string;
-    country: string;
-    professional: boolean;
-    wins: number;
-    losses: number;
-  };
+export type Fighter = {
+  id: number;
+  firstName: string;
+  lastName: string;
+  nickName: string;
+  gender: string;
+  fightingWeight: number;
+  weightClass: string;
+  gym: string;
+  city: string;
+  country: string;
+  professional: boolean;
+  wins: number;
+  losses: number;
+};
 
+export default function FighterProfilePage() {
   const fighter: Fighter = {
+    id: 1,
     firstName: "James",
     lastName: "Blaney",
     nickName: "Big Boy",
