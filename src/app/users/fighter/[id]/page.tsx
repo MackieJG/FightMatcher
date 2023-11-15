@@ -31,6 +31,21 @@ export default function FighterProfilePage() {
     losses: 0,
   };
 
+  const fighter2: Fighter = {
+    firstName: "James",
+    lastName: "Blaney",
+    nickName: "Big Boy",
+    gender: "male",
+    fightingWeight: 84,
+    weightClass: "Middle Weight",
+    gym: "MNBJJ",
+    city: "Glasgow",
+    country: "Scotland",
+    professional: false,
+    wins: 3,
+    losses: 0,
+  };
+
   const professional = fighter.professional;
   const fightingWeightInLbs = Math.round(fighter.fightingWeight * 2.20462);
 
